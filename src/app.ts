@@ -8,6 +8,7 @@ const main = async (): Promise<void> => {
   ServerApp.run({ base, limit, showTable, destination, fileName })
 }
 
+// Funcion autoinvocada
 (async () => {
   try {
     await main()
